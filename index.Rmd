@@ -1,0 +1,12 @@
+---
+title: "Introducción"
+site: distill::distill_website
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+Esta página contiene materiales y recursos útiles para antropología forense.

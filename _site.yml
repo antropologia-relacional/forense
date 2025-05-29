@@ -1,0 +1,18 @@
+name: "."
+title: "forenseweb"
+theme: aro_website.css
+output_dir: "docs"
+navbar:
+  title: "Antropología Forense"
+  right:
+    - text: "Inicio"
+      href: index.html
+    - text: "Recursos"
+      menu: 
+        - text: "Perfil biológico"
+          href: PB.html
+        - text: "Retroalimentación"
+          href: feedback.html
+        - text: "Otros"
+          href: otros.html
+output: distill::distill_article

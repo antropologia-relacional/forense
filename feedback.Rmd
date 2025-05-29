@@ -1,0 +1,20 @@
+---
+title: "Retroalimentación colaborativa"
+output: distill::distill_article
+---
+
+En este espacio se recopilan las necesidades y sugerencias de la comunidad en torno a los recursos disponibles. El objetivo es identificar estudios o herramientas que hacen falta, de modo que cualquier persona interesada en contribuir pueda retomarlos y desarrollarlos.
+
+Los recursos están desarrollados en R, pero si no tienes experiencia previa con este lenguaje de programación, podemos ayudarte en el proceso.
+
+Si deseas **<span style="color:#55828B">proponer una idea </span>** o **<span style="color:#55828B">informar que ya estás trabajando en alguna de ellas</span>**, por favor escríbenos al correco de contacto. Esto permitirá visibilizar esfuerzos en curso y facilitar la colaboración entre personas interesadas.
+
+## Última actualizacion
+**29 de mayo**    
+* Calculadora de error de medición        
+
+
+
+
+### Contacto
+afrelacional@gmail.com

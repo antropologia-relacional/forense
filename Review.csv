@@ -1,0 +1,30 @@
+﻿Componente,Estado,n,Grupo_etario,Elementos_anatómicos,Requisitos_técnicos,Método,original,Calculadora
+edad,Diverso,35,Adulto,Costilla fémur,Microscopía,Histomorfología,si,Proximamente
+edad,CDMX,33,Adulto,Piezas dentales,Microscopía,Tooth cementum annulation,si,Proximamente
+edad,CDMX,17,Adulto,Piezas dentales,Microscopía,Líneas incrementales,si,Proximamente
+edad,CDMX,71,Adulto,Cuarta costilla,Calibre,Componentes İşcan,si,Proximamente
+edad,CDMX,504,Adulto,Cuarta costilla,Ninguno,Fases İşcan,si,Proximamente
+edad,Diverso,85,Adulto,Piezas dentales,Radiografía,Cameriere,si,Proximamente
+edad,CDMX,502,Subadulto,Piezas dentales,Radiografía,Cameriere,si,Proximamente
+edad,Puebla,1125,Subadulto,Piezas dentales,Radiografía,Demirjian,si,Proximamente
+edad,Yucatán,182,Subadulto,Piezas dentales,Radiografía,Varios,si,Proximamente
+edad,NA,97,Prenatal,Huesos largos,Radiografía,Regresión,si,Proximamente
+edad legal,Chihuahua,145,Subadulto-Adulto,Piezas dentales,Radiografía,Demirjian adaptado por Mincer,si,Proximamente
+edad legal,Monterrey,135,Subadulto-Adulto,Piezas dentales,TC,Demirjian adaptado por Mincer,si,Proximamente
+edad legal,Monterrey,137,Subadulto-Adulto,Piezas dentales,Radiografía,Demirjian adaptado por Mincer,si,Proximamente
+sexo,CDMX,136,Adulto,Escafoides,Calibre,DFA,si,"<a href=""https://antropologia-relacional.github.io/apps/ScarpoEscafoides/"" target=""_blank"">link</a>"
+sexo,CDMX,146,Adulto,Coxal,Calibre,DFA,si,"<a href=""https://antropologia-relacional.github.io/apps/ScoxalCuanti/"" target=""_blank"">link</a>"
+sexo,Diverso,Variable,NA,Escápula,Calibre,DFA,si,"<a href=""https://antropologia-relacional.github.io/apps/Sescapula/"" target=""_blank"">link</a>"
+sexo,Diverso,203,Adulto,Coxal,Ninguno,Klales,si,"<a href=""https://antropologia-relacional.github.io/apps/ScoxalCuali/"" target=""_blank"">link</a>"
+sexo,CDMX,504,Adulto,Cuarta costilla,Calibre,DFA,si,"<a href=""https://antropologia-relacional.github.io/apps/S4rib/"" target=""_blank"">link</a>"
+sexo,Hidalgo,64,Adulto,Rótula,Calibre,DFA,si,"<a href=""https://antropologia-relacional.github.io/apps/Srotula/"" target=""_blank"">link</a>"
+sexo,CDMX,130,Adulto,Coxal,Goniómetro,DFA,si,NA
+sexo,CDMX,250,NA,Coxal,Calibre,DFA,si,NA
+sexo,CDMX,177,Adulto,Escápula,Calibre,DFA,si,"<a href=""https://antropologia-relacional.github.io/apps/SescapulaGlenoidea/"" target=""_blank"">link</a>"
+sexo,Hidalgo,188,Adulto,Calcáneo,Calibre,DFA,si,"<a href=""https://antropologia-relacional.github.io/apps/StarsoCalcaneo/"" target=""_blank"">link</a>"
+sexo,Diverso,164,Adulto,Mandíbula,Calibre,DFA,si,Proximamente
+sexo,CDMX,112,Adulto,carpos metacarpos,Calibre,DFA,si,Proximamente
+sexo,Diverso,210,Adulto,Fémur,Calibre,DFA,si,"<a href=""https://antropologia-relacional.github.io/apps/Sfemur/"" target=""_blank"">link</a>"
+estatura,Yucatán,171,Adulto,Tibia,Antropómetro,Regresión,si,Proximamente
+estatura,CDMX,86,Adulto,Tibia fémur,Calibre,Regresión,si,Proximamente
+estatura,NA,97,Prenatal,Huesos largos,Radiografía cinta métrica,Regresión,si,Proximamente
