@@ -1,26 +1,18 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
-      "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2025-05-29T07:29:32-06:00"
-    },
-    {
       "path": "feedback.html",
       "title": "Retroalimentación colaborativa",
       "author": [],
       "contents": "\r\nEn este espacio se recopilan las necesidades y sugerencias de la comunidad en torno a los recursos disponibles. El objetivo es identificar estudios o herramientas que hacen falta, de modo que cualquier persona interesada en contribuir pueda retomarlos y desarrollarlos.\r\nLos recursos están desarrollados en R, pero si no tienes experiencia previa con este lenguaje de programación, podemos ayudarte en el proceso.\r\nSi deseas proponer una idea  o informar que ya estás trabajando en alguna de ellas, por favor escríbenos al correco de contacto. Esto permitirá visibilizar esfuerzos en curso y facilitar la colaboración entre personas interesadas.\r\nÚltima actualizacion\r\n29 de mayo\r\n* Calculadora de error de medición\r\nContacto\r\nafrelacional@gmail.com\r\n\r\n\r\n\r\n",
-      "last_modified": "2025-05-29T07:31:20-06:00"
+      "last_modified": "2025-05-29T07:53:04-06:00"
     },
     {
       "path": "index.html",
       "title": "Introducción",
       "author": [],
       "contents": "\r\nEsta página contiene materiales y recursos útiles para antropología forense.\r\n\r\n\r\n\r\n",
-      "last_modified": "2025-05-29T07:29:33-06:00"
+      "last_modified": "2025-05-29T07:53:05-06:00"
     },
     {
       "path": "PB.html",
@@ -29,7 +21,7 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\nLa información presentada en esta página se basa en el artículo Bridging research and practice: A critical review of biological profile estimation methods applied to the Mexican population para presentar una herramienta interactiva que permite seleccionar métodos validados en población mexicana y revisados por pares, para estimar edad, sexo y estatura.\r\n\r\nRelevancia\r\n\r\nEsta herramienta es especialmente útil en el contexto mexicano debido a la crisis humanitaria en materia de identificación de Personas Fallecidas. Al cierre de 2023, en México había almacenados un total de 15,878 cadáveres y 12,938 restos de seres humanos en diferentes lugares como anfiteatros, laboratorios, centros de resguardo forense u homólogos, y agencias funerarias (INEGI, 2024). Estos datos reflejan la necesidad de contar con herramientas que permitan al personal Forense (Antropólogos Físicos, Médicos y Odontólogos) el tomar decisiones ágiles durante la estimación del Perfil Biológico basados en evidencia científica para población mexicana, sobre todo de cara al gran número tanto de cadáveres completos, así como de restos óseos (completos y fragmentados) que dificultan la labor forense.\r\nAdemás, la limitada infraestructura y recursos técnicos en el país exigen métodos prácticos, precisos y adaptados a las condiciones locales. Al ofrecer métodos validados y automatizados para estimar edad, sexo y estatura en población mexicana, esperamos que esta herramienta facilite la obtención y mejore la precisión de los datos obtenidos durante el análisis posmortem y con ello se contribuya a incrementar el número de identificaciones a nivel nacional.\r\n\r\nAportes\r\nAlgunos aportes de esta herramienta son:\r\nAutomatización de Cálculos: Reduce el tiempo manual dedicado a los análisis, al procesar instantáneamente los datos ingresados, minimizando errores humanos y permitiendo obtener resultados fiables con rapidez.\r\nAdaptabilidad a Datos Parciales: Permite trabajar con Personas Fallecidas completas, incompletas o fragmentadas, utilizando los elementos anatómicos disponibles.\r\nEstimar Intervalos de Confianza y Errores: Las calculadoras incluyen métricas de precisión y error asociadas a cada estimación, facilitando la evaluación de la fiabilidad de los resultados en contextos forenses complejos.\r\nComparación de Métodos: Permite comparar diferentes métodos validados para un mismo componente biológico, ayudando a seleccionar el más adecuado según la disponibilidad de restos y características del caso.\r\nFacilita la Documentación Forense: Permite generar reportes estandarizados y detallados que incluyen el método y mediciones utilizadas, y resultados, mejorando la calidad, transparencia y reproducibilidad de los informes periciales.\r\nArchivo de métodos de estimación del perfil biológico en población mexicana\r\n\r\nA continuación encontrará una tabla que le permite filtrar y seleccionar métodos específicos para la estimación de los diferentes componentes del perfil biológico. Cada entrada incluye información sobre la población de referencia (origen geográfico y grupo de edad), elemetos anatómicos analizados, requerimientos técnicos mínimos, el método utilizado, y un enlace directo a la calculadora correspondiente.\r\nA su vez, cada calculadora incluye:\r\nUn resumen del artículo original que respalda el método.\r\nUn tutorial paso a paso sobre cómo aplicarlo.\r\nLa herramienta interactiva para obtener resultados.\r\n\r\nLos métodos destacados en verde corresponden a los artículos revisados en la publicación original. De forma progresiva, se irán incorporando nuevos métodos provenientes de estudios no incluidos inicialmente. Si su artículo no aparece en la tabla, por favor contáctenos a través de los medios disponibles.\r\n\r\n\r\n\r\n\r\nEDAD\r\n\r\n\r\n\r\nSEXO\r\n\r\n\r\n\r\nESTATURA\r\n\r\n\r\n\r\nReferencias\r\nInstituto Nacional de Estadística y Geografía (INEGI). (2024, 13 de septiembre). Servicios periciales y servicio médico forense 2024 (Comunicado de prensa núm. 557/24). https://www.inegi.org.mx\r\nContacto\r\nSi su artículo no aparece en la tabla, por favor contáctenos a: afrelacional@gmail.com\r\nAviso de privacidad\r\nNo solicitamos ni almacenamos información personal como nombres, direcciones de correo electrónico, o datos de contacto de los usuarios.\r\nColaboradoras\r\nMaría García-Velasco. Departamento de Medicina Legal, Psiquiatría y Patología. Laboratorio de Antropología Forense. Universidad Complutense de Madrid.\r\nMónica Silvy Morales Ríos. Instituto de Medicina Forense, Universidad Veracruzana.\r\nJessica Alejandra Campos-Rodríguez. Escuela Nacional de Ciencias Forenses, Universidad Nacional Autónoma de México.\r\nArodi Farrera. Instituto de Investigaciones Antropológicas, Universidad Nacional Autónoma de México.\r\nDiseño web\r\nArodi Farrera. Instituto de Investigaciones Antropológicas, Universidad Nacional Autónoma de México.\r\nCaleb Rascón. Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas, Universidad Nacional Autónoma de México.\r\n\r\n\r\n\r\n",
-      "last_modified": "2025-05-29T07:29:35-06:00"
+      "last_modified": "2025-05-29T07:53:06-06:00"
     }
   ],
   "collections": []
