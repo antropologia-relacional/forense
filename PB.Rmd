@@ -27,9 +27,9 @@ Además, la limitada infraestructura y recursos técnicos en el país exigen mé
 
 <a href="https://antropologia-relacional.github.io/forense/ArchivoPB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-folder-open"></i>&nbsp;Archivo del perfil biológico mexicano</a>
 
-<a href="https://antropologia-relacional.github.io/forense/PB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-chart-column"></i>&nbsp; Gráfico para consensuar la estimación de edad</a>
+<a href="https://antropologia-relacional.github.io/apps/wSalto/" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-chart-column"></i>&nbsp; Gráfico para consensuar la estimación de edad</a>
 
-<a href="https://antropologia-relacional.github.io/forense/PB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-calculator"></i>&nbsp; Calculadora para estimar el Error Técnico de Medida</a>
+<a href="https://antropologia-relacional.github.io/apps/wTEM/" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-calculator"></i>&nbsp; Calculadora para estimar el Error Técnico de Medida</a>
 
 ```{r, echo=FALSE, layout="l-page"}
 #los iconos los obtuve de: 
