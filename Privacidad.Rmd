@@ -1,0 +1,6 @@
+---
+title: "Aviso de privacidad"
+output: distill::distill_article
+---
+
+No solicitamos ni almacenamos información personal como nombres, direcciones de correo electrónico, o datos de contacto de los usuarios de las herramientas y recursos proporcionados en esta página.

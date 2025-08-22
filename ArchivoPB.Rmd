@@ -1,0 +1,187 @@
+---
+title: "Archivo del perfil biológico mexicano"
+description: |
+  Archivo PB
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+<div style="text-align: justify"> La información presentada en esta página se basa en el artículo <a href="https://www.sciencedirect.com/science/article/pii/S1355030625000449" target="_blank">Bridging research and practice: A critical review of biological profile estimation methods applied to the Mexican population</a> para presentar una herramienta interactiva que permite seleccionar métodos validados en población mexicana y revisados por pares, para estimar edad, sexo y estatura. </div>
+
+
+
+# Archivo de métodos de estimación del perfil biológico en población mexicana
+
+<div style="text-align: justify"> A continuación encontrará una tabla que le permite filtrar y seleccionar métodos específicos para la estimación de los diferentes componentes del perfil biológico. **Cada entrada** incluye información sobre la población de referencia (origen geográfico y grupo de edad), elemetos anatómicos analizados, requerimientos técnicos mínimos, el método utilizado, y un enlace directo a la calculadora correspondiente. 
+
+A su vez, **cada calculadora** incluye:    
+
+* Un resumen del artículo original que respalda el método.    
+* Un tutorial paso a paso sobre cómo aplicarlo.    
+* La herramienta interactiva para obtener resultados.    
+
+
+Si algún elemento se encuentra **vacío**, significa que no existe información al respecto en la publicación original.    
+
+Los métodos resaltados en **<span style="color:#C9E4CA">verde</span>** corresponden a los artículos revisados en la publicación original. De forma progresiva, se irán incorporando nuevos métodos provenientes de estudios no incluidos inicialmente. Si su artículo no aparece en la tabla, por favor <a href="https://antropologia-relacional.github.io/forense/feedback.html" target="_blank">contáctenos</a>.</div> 
+
+
+
+
+```{r setup,  echo=FALSE, layout="l-screen"}
+# https://rstudio.github.io/distill/figures.html
+library(DT)
+library(dplyr)
+a <- read.csv("Review.csv", header = T)
+
+```
+
+
+
+# EDAD 
+
+```{r, echo=FALSE, layout="l-page"}
+# https://rstudio.github.io/distill/figures.html
+
+# Falta modificar las opciones para que pueda reconocer "adulto" como diferente de "subadulto".
+
+aEDAD <- a %>% filter(Componente == "edad" | a$Componente == "edad_legal") %>%
+  select(Estado, Grupo_etario, Elementos_anatómicos, Requisitos_técnicos, Método, original, Calculadora)
+colnames(aEDAD) <- c('Estado', 'Grupo de edad', 'Elemento anatómico', 'Requisitos técnicos', 'Método', 'original', "Calculadora")
+
+datatable(aEDAD, escape=FALSE,
+#datatable(a[a$Componente == "edad" | a$Componente == "edad_legal", -1], 
+          # search boxes
+          filter = 'top',
+#         colnames = c"names",
+          caption = 'Métodos para estimar la edad.',
+          rownames = F, 
+          # without gray stripes 
+          class = list(stripe = FALSE),
+          options = list(
+            # what basic aspects appear...
+            dom = 'tp', 
+            # do not highlight what you are searching
+            searchHighlight = F, 
+            # do not include arrows for ordering the data
+            ordering = FALSE,
+            # in spanish
+            language = list(url = 'https://cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json'),
+            # hide Target column
+            columnDefs = list(list(targets = "original", visible = FALSE)),
+            # colors for header background and header text
+            initComplete = JS("function(settings, json) {",
+    "$(this.api().table().header()).css({'background-color': '#88BBA2',
+    'color':'#364958'});",
+    "}")
+    )
+) %>%
+  formatStyle(
+    "original",
+    target = "row",
+  backgroundColor = styleEqual(c("no", "si"), 
+                               c("white", adjustcolor( "#C9E4CA", alpha.f = 0.3)
+                                 ))
+  )
+
+
+
+```
+
+
+
+
+# SEXO 
+
+```{r, echo=FALSE, layout="l-page"}
+
+aSEXO <- a %>% filter(Componente == "sexo") %>%
+  select(Estado, Grupo_etario, Elementos_anatómicos, Requisitos_técnicos, Método, original, Calculadora)
+colnames(aSEXO) <- c('Estado', 'Grupo de edad', 'Elemento anatómico', 'Requisitos técnicos', 'Método', 'original', "Calculadora")
+
+datatable(aSEXO, escape=FALSE,
+#datatable(a[a$Componente == "sexo", -1], 
+          filter = 'top',
+#          colnames = c('Estado', 'n', 'Grupo de edad'),
+          caption = 'Métodos para estimar el sexo.',
+          rownames = F, 
+          class = list(stripe = FALSE),
+          options = list(
+            # what basic aspects appear...
+            dom = 'tp', 
+            # do not highlight what you are searching
+            searchHighlight = F, 
+            # do not include arrows for ordering the data
+            ordering = FALSE,
+            # in spanish
+            language = list(url = 'https://cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json'),
+            # hide Target column
+            columnDefs = list(list(targets = "original", visible = FALSE)),
+            # colors for header background and header text
+            initComplete = JS("function(settings, json) {",
+    "$(this.api().table().header()).css({'background-color': '#88BBA2',
+    'color':'#364958'});",
+    "}")
+    )
+) %>%
+  formatStyle(
+    "original",
+    target = "row",
+  backgroundColor = styleEqual(c("no", "si"), 
+                               c("white", adjustcolor( "#C9E4CA", alpha.f = 0.3)
+                                 ))
+  )
+```
+
+
+# ESTATURA 
+
+```{r, echo=FALSE, layout="l-page"}
+# https://rstudio.github.io/distill/figures.html
+aHEIGHT <- a %>% filter(Componente == "estatura") %>%
+  select(Estado, Grupo_etario, Elementos_anatómicos, Requisitos_técnicos, Método, original, Calculadora)
+colnames(aHEIGHT) <- c('Estado', 'Grupo de edad', 'Elemento anatómico', 'Requisitos técnicos', 'Método', 'original', "Calculadora")
+
+#datatable(a[a$Componente == "estatura", -1], 
+datatable(aHEIGHT, escape=FALSE,
+          filter = 'top',
+#          colnames = c('Estado', 'n', 'Grupo de edad'),
+          caption = 'Métodos para estimar la estatura.',
+          rownames = F, 
+          class = list(stripe = FALSE),
+          options = list(
+            # what basic aspects appear...
+            dom = 'tp', 
+            # do not highlight what you are searching
+            searchHighlight = F, 
+            # do not include arrows for ordering the data
+            ordering = FALSE,
+            # in spanish
+            language = list(url = 'https://cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json'),
+            # hide Target column
+            columnDefs = list(list(targets = "original", visible = FALSE)),
+            # colors for header background and header text
+            initComplete = JS("function(settings, json) {",
+    "$(this.api().table().header()).css({'background-color': '#88BBA2',
+    'color':'#364958'});",
+    "}")
+    )
+) %>%
+  formatStyle(
+    "original",
+    target = "row",
+  backgroundColor = styleEqual(c("no", "si"), 
+                               c("white", adjustcolor( "#C9E4CA", alpha.f = 0.3)
+                                 ))
+  )
+```
+
+
+
+
+### Contacto
+Si su artículo no aparece en la tabla, por favor contáctenos a: afrelacional@gmail.com
+
+
+
+

@@ -1,207 +1,53 @@
 ---
-title: "Archivo del perfil biológico mexicano"
+title: "Herramientas para estimar el perfil biológico"
 description: |
-  ACRONIMO.
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    # toc: true
+    # toc_float: true
+    # toc_title: "Índice"
 ---
-
-<div style="text-align: justify"> La información presentada en esta página se basa en el artículo <a href="https://www.sciencedirect.com/science/article/pii/S1355030625000449" target="_blank">Bridging research and practice: A critical review of biological profile estimation methods applied to the Mexican population</a> para presentar una herramienta interactiva que permite seleccionar métodos validados en población mexicana y revisados por pares, para estimar edad, sexo y estatura. </div>
-
-
 
 # Relevancia
 
-<div style="text-align: justify"> Esta herramienta es especialmente útil en el contexto mexicano debido a la crisis humanitaria en materia de identificación de Personas Fallecidas. Al cierre de 2023, en México había almacenados un total de 15,878 cadáveres y 12,938 restos de seres humanos en diferentes lugares como anfiteatros, laboratorios, centros de resguardo forense u homólogos, y agencias funerarias (INEGI, 2024). Estos datos reflejan la necesidad de contar con herramientas que permitan al personal Forense (Antropólogos Físicos, Médicos y Odontólogos) el tomar decisiones ágiles durante la estimación del Perfil Biológico basados en evidencia científica para población mexicana, sobre todo de cara al gran número tanto de cadáveres completos, así como de restos óseos (completos y fragmentados) que dificultan la labor forense. 
+<div style="text-align: justify"> Las herramientas presentadas a continación son  especialmente útiles en el contexto mexicano debido a la crisis humanitaria en materia de identificación de Personas Fallecidas. Al cierre de 2023, en México había almacenados un total de 15,878 cadáveres y 12,938 restos de seres humanos en diferentes lugares como anfiteatros, laboratorios, centros de resguardo forense u homólogos, y agencias funerarias (INEGI, 2024). Estos datos reflejan la necesidad de contar con herramientas que permitan al personal Forense (Antropólogos Físicos, Médicos y Odontólogos) tomar decisiones ágiles y facilitar la estimación del Perfil Biológico basada en evidencia científica para población mexicana, sobre todo de cara al gran número tanto de cadáveres completos, así como de restos óseos (completos y fragmentados) que dificultan la labor forense. 
 
-Además, la limitada infraestructura y recursos técnicos en el país exigen métodos prácticos, precisos y adaptados a las condiciones locales. Al ofrecer métodos validados y automatizados para estimar edad, sexo y estatura en población mexicana, esperamos que esta herramienta facilite la obtención y mejore la precisión de los datos obtenidos durante el análisis posmortem y con ello se contribuya a incrementar el número de identificaciones a nivel nacional.</div>    
+Además, la limitada infraestructura y recursos técnicos en el país exigen métodos prácticos, precisos y adaptados a las condiciones locales. Al ofrecer métodos validados y automatizados para estimar edad, sexo y estatura en población mexicana, esperamos que estas herramientas facilite la obtención y mejore la precisión de los datos obtenidos durante el análisis posmortem y con ello se contribuya a incrementar el número de identificaciones a nivel nacional.</div>    
 
 
 # Aportes 
-Algunos aportes de esta herramienta son:
+<div style="text-align: justify"> Algunos aportes de estas herramientas son:
 
 * **Automatización de Cálculos:** Reduce el tiempo manual dedicado a los análisis, al procesar instantáneamente los datos ingresados, minimizando errores humanos y permitiendo obtener resultados fiables con rapidez.    
 * **Adaptabilidad a Datos Parciales:** Permite trabajar con Personas Fallecidas completas, incompletas o fragmentadas, utilizando los elementos anatómicos disponibles.    
 * **Estimar Intervalos de Confianza y Errores:** Las calculadoras incluyen métricas de precisión y error asociadas a cada estimación, facilitando la evaluación de la fiabilidad de los resultados en contextos forenses complejos.    
 * **Comparación de Métodos:** Permite comparar diferentes métodos validados para un mismo componente biológico, ayudando a seleccionar el más adecuado según la disponibilidad de restos y características del caso.    
-* **Facilita la Documentación Forense:** Permite generar reportes estandarizados y detallados que incluyen el método y mediciones utilizadas, y resultados, mejorando la calidad, transparencia y reproducibilidad de los informes periciales.    
-
-
-# Archivo de métodos de estimación del perfil biológico en población mexicana
-
-<div style="text-align: justify"> A continuación encontrará una tabla que le permite filtrar y seleccionar métodos específicos para la estimación de los diferentes componentes del perfil biológico. **Cada entrada** incluye información sobre la población de referencia (origen geográfico y grupo de edad), elemetos anatómicos analizados, requerimientos técnicos mínimos, el método utilizado, y un enlace directo a la calculadora correspondiente. 
-
-A su vez, **cada calculadora** incluye:    
-
-* Un resumen del artículo original que respalda el método.    
-* Un tutorial paso a paso sobre cómo aplicarlo.    
-* La herramienta interactiva para obtener resultados.    
-
-
-Los métodos destacados en **<span style="color:#C9E4CA">verde</span>** corresponden a los artículos revisados en la publicación original. De forma progresiva, se irán incorporando nuevos métodos provenientes de estudios no incluidos inicialmente. Si su artículo no aparece en la tabla, por favor contáctenos a través de los medios disponibles.</div> 
-
-
-```{r setup,  echo=FALSE, layout="l-screen"}
-# https://rstudio.github.io/distill/figures.html
-library(DT)
-library(dplyr)
-a <- read.csv("Review.csv", header = T)
-
-```
+* **Facilita la Documentación Forense:** Permite generar reportes estandarizados y detallados que incluyen el método y mediciones utilizadas, y resultados, mejorando la calidad, transparencia y reproducibilidad de los informes periciales. </div>    
 
 
 
-# EDAD 
+# Herramientas disponibles
+
+<a href="https://antropologia-relacional.github.io/forense/PB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-folder-open"></i>&nbsp;Archivo del perfil biológico mexicano</a>
+
+<a href="https://antropologia-relacional.github.io/forense/PB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-chart-column"></i>&nbsp; Gráfico para consensuar la estimación de edad</a>
+
+<a href="https://antropologia-relacional.github.io/forense/PB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-calculator"></i>&nbsp; Calculadora para estimar el Error Técnico de Medida</a>
 
 ```{r, echo=FALSE, layout="l-page"}
-# https://rstudio.github.io/distill/figures.html
-
-# Falta modificar las opciones para que pueda reconocer "adulto" como diferente de "subadulto".
-
-aEDAD <- a %>% filter(Componente == "edad" | a$Componente == "edad_legal") %>%
-  select(Estado, Grupo_etario, Elementos_anatómicos, Requisitos_técnicos, Método, original, Calculadora)
-colnames(aEDAD) <- c('Estado', 'Grupo de edad', 'Elemento anatómico', 'Requisitos técnicos', 'Método', 'original', "Calculadora")
-
-datatable(aEDAD, escape=FALSE,
-#datatable(a[a$Componente == "edad" | a$Componente == "edad_legal", -1], 
-          # search boxes
-          filter = 'top',
-#         colnames = c"names",
-          caption = 'This is a simple caption for the table.',
-          rownames = F, 
-          # without gray stripes 
-          class = list(stripe = FALSE),
-          options = list(
-            # what basic aspects appear...
-            dom = 'tp', 
-            # do not highlight what you are searching
-            searchHighlight = F, 
-            # do not include arrows for ordering the data
-            ordering = FALSE,
-            # in spanish
-            language = list(url = 'https://cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json'),
-            # hide Target column
-            columnDefs = list(list(targets = "original", visible = FALSE)),
-            # colors for header background and header text
-            initComplete = JS("function(settings, json) {",
-    "$(this.api().table().header()).css({'background-color': '#88BBA2',
-    'color':'#364958'});",
-    "}")
-    )
-) %>%
-  formatStyle(
-    "original",
-    target = "row",
-  backgroundColor = styleEqual(c("no", "si"), 
-                               c("white", adjustcolor( "#C9E4CA", alpha.f = 0.3)
-                                 ))
-  )
-
-
-
+#los iconos los obtuve de: 
+#  https://fontawesome.com/search?o=r
 ```
 
 
 
-
-# SEXO 
-
-```{r, echo=FALSE, layout="l-page"}
-
-aSEXO <- a %>% filter(Componente == "sexo") %>%
-  select(Estado, Grupo_etario, Elementos_anatómicos, Requisitos_técnicos, Método, original, Calculadora)
-colnames(aSEXO) <- c('Estado', 'Grupo de edad', 'Elemento anatómico', 'Requisitos técnicos', 'Método', 'original', "Calculadora")
-
-datatable(aSEXO, escape=FALSE,
-#datatable(a[a$Componente == "sexo", -1], 
-          filter = 'top',
-#          colnames = c('Estado', 'n', 'Grupo de edad'),
-          caption = 'This is a simple caption for the table.',
-          rownames = F, 
-          class = list(stripe = FALSE),
-          options = list(
-            # what basic aspects appear...
-            dom = 'tp', 
-            # do not highlight what you are searching
-            searchHighlight = F, 
-            # do not include arrows for ordering the data
-            ordering = FALSE,
-            # in spanish
-            language = list(url = 'https://cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json'),
-            # hide Target column
-            columnDefs = list(list(targets = "original", visible = FALSE)),
-            # colors for header background and header text
-            initComplete = JS("function(settings, json) {",
-    "$(this.api().table().header()).css({'background-color': '#88BBA2',
-    'color':'#364958'});",
-    "}")
-    )
-) %>%
-  formatStyle(
-    "original",
-    target = "row",
-  backgroundColor = styleEqual(c("no", "si"), 
-                               c("white", adjustcolor( "#C9E4CA", alpha.f = 0.3)
-                                 ))
-  )
-```
-
-
-# ESTATURA 
-
-```{r, echo=FALSE, layout="l-page"}
-# https://rstudio.github.io/distill/figures.html
-aHEIGHT <- a %>% filter(Componente == "estatura") %>%
-  select(Estado, Grupo_etario, Elementos_anatómicos, Requisitos_técnicos, Método, original, Calculadora)
-colnames(aHEIGHT) <- c('Estado', 'Grupo de edad', 'Elemento anatómico', 'Requisitos técnicos', 'Método', 'original', "Calculadora")
-
-#datatable(a[a$Componente == "estatura", -1], 
-datatable(aHEIGHT, escape=FALSE,
-          filter = 'top',
-#          colnames = c('Estado', 'n', 'Grupo de edad'),
-          caption = 'This is a simple caption for the table.',
-          rownames = F, 
-          class = list(stripe = FALSE),
-          options = list(
-            # what basic aspects appear...
-            dom = 'tp', 
-            # do not highlight what you are searching
-            searchHighlight = F, 
-            # do not include arrows for ordering the data
-            ordering = FALSE,
-            # in spanish
-            language = list(url = 'https://cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json'),
-            # hide Target column
-            columnDefs = list(list(targets = "original", visible = FALSE)),
-            # colors for header background and header text
-            initComplete = JS("function(settings, json) {",
-    "$(this.api().table().header()).css({'background-color': '#88BBA2',
-    'color':'#364958'});",
-    "}")
-    )
-) %>%
-  formatStyle(
-    "original",
-    target = "row",
-  backgroundColor = styleEqual(c("no", "si"), 
-                               c("white", adjustcolor( "#C9E4CA", alpha.f = 0.3)
-                                 ))
-  )
-```
-
+<br>
+<br>
 
 # Referencias
 Instituto Nacional de Estadística y Geografía (INEGI). (2024, 13 de septiembre). Servicios periciales y servicio médico forense 2024 (Comunicado de prensa núm. 557/24). https://www.inegi.org.mx
 
-
-
-### Contacto
-Si su artículo no aparece en la tabla, por favor contáctenos a: afrelacional@gmail.com
-
-
-
-### Aviso de privacidad
-No solicitamos ni almacenamos información personal como nombres, direcciones de correo electrónico, o datos de contacto de los usuarios.
 
 
 ### Colaboradoras
@@ -216,9 +62,5 @@ No solicitamos ni almacenamos información personal como nombres, direcciones de
 
 
 
-### Diseño web
-**<span style="color:#55828B">Arodi Farrera.</span>** Instituto de Investigaciones Antropológicas, Universidad Nacional Autónoma de México. 
-
-**<span style="color:#55828B">Caleb Rascón.</span>** Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas, Universidad Nacional Autónoma de México. 
 
 

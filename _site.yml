@@ -9,10 +9,12 @@ navbar:
       href: index.html
     - text: "Recursos"
       menu: 
-        - text: "Perfil biológico"
+        - text: "Herramientas"
           href: PB.html
+        # - text: "Perfil biológico"
+        #   href: https://chatgpt.com
         - text: "Retroalimentación"
           href: feedback.html
-        - text: "Otros"
-          href: otros.html
+        - text: "Aviso de Privacidad"
+          href: Privacidad.html
 output: distill::distill_article
