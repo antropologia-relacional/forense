@@ -12,7 +12,7 @@ text-align: justify}
 
 ![Creación de ecosistemas colaborativos](./images/relacional.png)
 
-En esta página se busca construir **ecosistemas colaborativos** para la Antropología Forense. Esta perspectiva parte de reconocer que no existen soluciones simples y de que ningún ningún individuo u organización pueden obtener los resultados desados si trabajan de manera aislada. En lugar de preguntarnos ¿cuál es la solución a la crisis forense?, nos enfocamos en **¿cómo facilitar interacciones que fortalezcan las conexiones entre actores e instituciones que conduzcan a resultados colectivos más exitosos?**
+En esta página se busca construir **ecosistemas colaborativos** para la Antropología Forense. Esta perspectiva parte de reconocer que no existen soluciones simples y de que ningún ningún individuo u organización pueden obtener los resultados desados si trabajan de manera aislada. En lugar de preguntarnos ¿cuál es la solución a la crisis forense?, nos enfocamos en **¿cómo facilitar interacciones que fortalezcan las conexiones entre actores e instituciones para obtener resultados colectivos más efectivos?**
 
 Para esto es necesario ir más allá de la cooperación, y buscar soluciones flexibles basadas en la escucha mutua y el aprendizaje compartido. La colaboración, entendida así, se convierte en un proceso de creación conjunta en el que se comparten saberes y recursos en busca de un objetivo común. 
 

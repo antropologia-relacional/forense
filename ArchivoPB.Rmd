@@ -1,18 +1,13 @@
 ---
-title: "Archivo del perfil biológico mexicano"
-description: |
-  Archivo PB
+title: "Archivo de métodos para la estimación del perfil biológico en población mexicana"
+description: 
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
 
-<div style="text-align: justify"> La información presentada en esta página se basa en el artículo <a href="https://www.sciencedirect.com/science/article/pii/S1355030625000449" target="_blank">Bridging research and practice: A critical review of biological profile estimation methods applied to the Mexican population</a> para presentar una herramienta interactiva que permite seleccionar métodos validados en población mexicana y revisados por pares, para estimar edad, sexo y estatura. </div>
+<div style="text-align: justify"> La información presentada en esta página se basa en el artículo **<a href="https://www.sciencedirect.com/science/article/pii/S1355030625000449" target="_blank">Bridging research and practice: A critical review of biological profile estimation methods applied to the Mexican population</a>** para presentar una herramienta interactiva que permite seleccionar métodos validados en población mexicana y revisados por pares, para estimar edad, sexo y estatura.    
 
-
-
-# Archivo de métodos de estimación del perfil biológico en población mexicana
-
-<div style="text-align: justify"> A continuación encontrará una tabla que le permite filtrar y seleccionar métodos específicos para la estimación de los diferentes componentes del perfil biológico. **Cada entrada** incluye información sobre la población de referencia (origen geográfico y grupo de edad), elemetos anatómicos analizados, requerimientos técnicos mínimos, el método utilizado, y un enlace directo a la calculadora correspondiente. 
+A continuación encontrará una tabla que le permite filtrar y seleccionar métodos específicos para la estimación de los diferentes componentes del perfil biológico. **Cada entrada** incluye información sobre la población de referencia (origen geográfico y grupo de edad), elemetos anatómicos analizados, requerimientos técnicos mínimos, el método utilizado, y un enlace directo a la calculadora correspondiente. 
 
 A su vez, **cada calculadora** incluye:    
 
