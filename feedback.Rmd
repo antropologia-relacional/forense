@@ -19,6 +19,12 @@ Si deseas **<span style="color:#55828B">subscribirte </span>** al boletín y rec
 
 ## Última actualizacion
 
+**12 de octubre 2026**    
+* En la página del perfil biológico, se incluyeron enlaces a diferentes herramienta para estimar alguno de sus componentes: Osteolab, KidStats, EcuAntro, MorphoPASSE. Así como otras herramientas de utilidad: FOROST, Osteomics       
+* Se agregó una calculadora para estimar la edad desarrollada en población de yucatán a partir de la cuarta costilla (Valencia et al. 2010), y una calculadora para estimar el sexo desarrollada en el LAF de la FacMed-UNAM a partir de la segunda vértebra cervical (Menéndez et al 2024).    
+* Se agregó la licencia CC BY 4.0    
+
+
 **23 de agosto 2025**    
 * Se incluyó la calculadora de error de medición        
 * Se incluyó la herramienta para consensuar la edad        

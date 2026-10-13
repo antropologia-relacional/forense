@@ -13,14 +13,10 @@ output: distill::distill_article
 # HERRAMIENTAS 
 <div style="text-align: justify">
 
-* **LR:** .    
-
-<a href="https://antropologia-relacional.github.io/forense/ArchivoPB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-folder-open"></i>&nbsp;Archivo del perfil biológico mexicano</a>
+* **Razón de verosimilitud (Likelihood Ratio, LR):** En el análisis forense de comparación somatológica, la evidencia se interpreta a partir de los patrones de similitudes y disimilitudes morfológicas observadas entre dos imágenes. Esta herramienta permite explorar cómo la cantidad y el tipo de coincidencias influyen en el peso de la evidencia, expresado mediante la razón de verosimilitud.    
+<a href="https://antropologia-relacional.github.io/apps/LRintuicion/" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-scale-balanced"></i>&nbsp;Intuición detrás del LR</a>
 
 * **ANÁLISIS FACIAL RASGO POR RASGO:**     
-
-<a href="https://antropologia-relacional.github.io/forense/ArchivoPB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-folder-open"></i>&nbsp;Archivo del perfil biológico mexicano</a>
-
 
 </div>    
 
@@ -40,13 +36,10 @@ output: distill::distill_article
 
 ### Colaboradores
 
-**<span style="color:#55828B">Eduardo Espejel.</span>** Fiscalia.   
+**<span style="color:#55828B">Eduardo Espejel.</span>** Fiscalía General de Justicia de la Ciudad de México.       
 
-**<span style="color:#55828B">Cristal Bustillos.</span>** CNB.    
+**<span style="color:#55828B">Cristal Bustillos.</span>** Comisión Nacional de Búsqueda.    
 
-**<span style="color:#55828B">Arodi Farrera.</span>** Instituto de Investigaciones Antropológicas, Universidad Nacional Autónoma de México. 
-
-
-
+**<span style="color:#55828B">Arodi Farrera.</span>** Instituto de Investigaciones Antropológicas, Universidad Nacional Autónoma de México.    
 
 
