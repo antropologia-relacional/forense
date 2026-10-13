@@ -27,9 +27,59 @@ Además, la limitada infraestructura y recursos técnicos en el país exigen mé
 
 <a href="https://antropologia-relacional.github.io/forense/ArchivoPB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-folder-open"></i>&nbsp;Archivo del perfil biológico mexicano</a>
 
-<a href="https://antropologia-relacional.github.io/apps/wSaltoRana/" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-chart-column"></i>&nbsp; Gráfico para consensuar la estimación de edad</a>
+<a href="https://sites.google.com/view/osteolab" class="icon-link" target="_blank" rel="noopener">
+  <img src="images/osteolab.png" 
+       alt="Osteolab" 
+       style="height:40px;vertical-align:middle;">
+  &nbsp; Osteolab: Herramienta informática con métodos tradicionales para estimar el PB 
+</a>
+
+<a href="https://kyrastull.weebly.com/kidstats.html" class="icon-link" target="_blank" rel="noopener">
+  <img src="images/kidstats.png" 
+       alt="KidStats" 
+       style="height:40px;vertical-align:middle;">
+  &nbsp; KidStats: Herramientas para el perfil biológico en subadultos
+</a>
+
+<a href="https://pablogomez.cl/apps/ecuantro/" class="icon-link" target="_blank" rel="noopener">
+  <img src="images/ecuantro.png" 
+       alt="Ecuantro" 
+       style="height:40px;vertical-align:middle;">
+  &nbsp; EcuAntro: calculadoras de estatura, edad de muerte, sexo, masa corporal, hipoplasia del esmalte, número mínimo de individuos y distancias biológicas
+</a>
+
+
+<a href="https://www.morphopasse.com/program.html" class="icon-link" target="_blank" rel="noopener">
+  <img src="images/morphopasse.png" 
+       alt="Morphopasse" 
+       style="height:40px;vertical-align:middle;">
+  &nbsp; MorphoPASSE: the Morphological Pelvis and Skull Sex Estimation Program
+</a>
+
+# Otras herramientas disponibles
+
+<a href="https://antropologia-relacional.github.io/apps/wSaltoRana/" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-chart-column"></i>&nbsp; Gráfico para comparar métodos de estimación de edad</a>
 
 <a href="https://antropologia-relacional.github.io/apps/wTEM/" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-calculator"></i>&nbsp; Calculadora para estimar el Error Técnico de Medida</a>
+
+<a href="https://forensicosteology.org/?language=es" class="icon-link" target="_blank" rel="noopener">
+  <img src="https://forensicosteology.org/img/fo_logo_main.png" 
+       alt="FOROST" 
+       style="height:40px;vertical-align:middle;">
+  &nbsp; FOROST: Metadatos visual de libre acceso de lesiones esqueléticas 
+</a>
+
+
+<a href="https://osteomics.com/index.html" class="icon-link" target="_blank" rel="noopener">
+  <img src="images/osteomics.png" 
+       alt="Osteomics" 
+       style="height:40px;vertical-align:middle;">
+  &nbsp; Osteomics: Herramientas para la toma de decisiones en antropología biológica
+</a>
+
+
+
+
 
 ```{r, echo=FALSE, layout="l-page"}
 #los iconos los obtuve de: 

@@ -9,12 +9,16 @@ navbar:
       href: index.html
     - text: "Recursos"
       menu: 
-        - text: "Herramientas"
+        - text: "Perfil Biológico"
           href: PB.html
-        # - text: "Perfil biológico"
-        #   href: https://chatgpt.com
-        - text: "Retroalimentación"
-          href: feedback.html
-        - text: "Aviso de Privacidad"
-          href: Privacidad.html
+        - text: "Somatología"
+          href: Soma.html
+        # - text: "Decisiones asistidas"
+        # #   href: PB.html
+        # - text: "Bancos de imágenes"
+        # #   href: PB.html
+    - text: "Retroalimentación"
+      href: feedback.html
+    - text: "Aviso de Privacidad"
+      href: Privacidad.html
 output: distill::distill_article

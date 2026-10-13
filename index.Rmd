@@ -12,13 +12,23 @@ text-align: justify}
 
 ![Creación de ecosistemas colaborativos](./images/relacional.png)
 
-En esta página se busca construir **ecosistemas colaborativos** para la Antropología Forense. Esta perspectiva parte de reconocer que no existen soluciones simples y de que ningún ningún individuo u organización pueden obtener los resultados desados si trabajan de manera aislada. En lugar de preguntarnos ¿cuál es la solución a la crisis forense?, nos enfocamos en **¿cómo facilitar interacciones que fortalezcan las conexiones entre actores e instituciones para obtener resultados colectivos más efectivos?**
+En esta página se busca construir **ecosistemas colaborativos** para la Antropología Forense. Esta perspectiva parte de reconocer que no existen soluciones simples y que ningún ningún individuo u organización pueden obtener los resultados desados si trabajan de manera aislada. En lugar de preguntarnos ¿cuál es la solución a la crisis forense?, nos enfocamos en **¿cómo facilitar interacciones que fortalezcan las conexiones entre actores e instituciones para obtener resultados colectivos más efectivos?**
 
-Para esto es necesario ir más allá de la cooperación, y buscar soluciones flexibles basadas en la escucha mutua y el aprendizaje compartido. La colaboración, entendida así, se convierte en un proceso de creación conjunta en el que se comparten saberes y recursos en busca de un objetivo común. 
+Para esto es necesario ir más allá de la cooperación, y buscar soluciones flexibles basadas en el aprendizaje compartido. La colaboración, entendida así, se convierte en un proceso de creación conjunta en el que se comparten saberes y recursos en busca de un objetivo común. 
 
 En esta página encontrarás materiales y recursos útiles que buscan contribuir a esta construcción colaborativa en el ámbito de la antropología forense. 
 
+<br>
 
+### Licencia
+<p>
+Este sitio y sus contenidos están bajo licencia 
+<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+Creative Commons Atribución 4.0 Internacional (CC BY 4.0)
+</a>.
+</p>
+
+<br>
 
 ### Diseño web
 **<span style="color:#55828B">Arodi Farrera.</span>** Instituto de Investigaciones Antropológicas, Universidad Nacional Autónoma de México. 

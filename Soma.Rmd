@@ -1,0 +1,52 @@
+---
+title: "Herramientas para la Somatología Forense"
+description: |
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+# Relevancia
+
+<div style="text-align: justify"> Las herramientas presentadas a continación son  especialmente útiles para la capacitación en torno a la descripción y análisis somatológico forense.</div>    
+
+
+# HERRAMIENTAS 
+<div style="text-align: justify">
+
+* **LR:** .    
+
+<a href="https://antropologia-relacional.github.io/forense/ArchivoPB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-folder-open"></i>&nbsp;Archivo del perfil biológico mexicano</a>
+
+* **ANÁLISIS FACIAL RASGO POR RASGO:**     
+
+<a href="https://antropologia-relacional.github.io/forense/ArchivoPB.html" class="icon-link" target="_blank" rel="noopener"><i class="fa-solid fa-folder-open"></i>&nbsp;Archivo del perfil biológico mexicano</a>
+
+
+</div>    
+
+
+
+```{r, echo=FALSE, layout="l-page"}
+#los iconos los obtuve de: 
+#  https://fontawesome.com/search?o=r
+```
+
+
+
+<br>
+<br>
+
+
+
+### Colaboradores
+
+**<span style="color:#55828B">Eduardo Espejel.</span>** Fiscalia.   
+
+**<span style="color:#55828B">Cristal Bustillos.</span>** CNB.    
+
+**<span style="color:#55828B">Arodi Farrera.</span>** Instituto de Investigaciones Antropológicas, Universidad Nacional Autónoma de México. 
+
+
+
+
+
